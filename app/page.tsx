@@ -1,11 +1,12 @@
 import Banners from "@/components/pages/landing/Banners";
+import Datas from "@/components/pages/landing/Datas";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="p-4">
+    <div className="">
       <Banners></Banners>
-      <section>datas</section>
+      <Datas></Datas>
       <section>others img</section>
       <section>branchs</section>
       <section>motos</section>
